@@ -1,24 +1,77 @@
 /*_____________________________________________________Media queries___________________________________________________________*/
-													/*_______Smartphones_______*/
+																																		/*_______Smartphones_______*/
 @media only screen and (max-width : 320px) {
 /*=======Styles go here=======*/
 body{
 	background: blue;
 }
 }
-
-														/*_______Tablets______*/
+																																		/*_______Tablets______*/
 @media only screen and (min-width : 321px)and (max-width : 480px) {
 /*=======Styles go here=======*/
 body{
 	background: yellow;
 }
 }
-
-													/*_______Medium devices_______*/
+																																		/*_______Medium devices_______*/
 @media only screen and (min-width: 481px) and (max-width: 1200px) {
 /*=======Styles go here=======*/
 body{
 	background: green;
 }
+}
+/*____________________________________________________C l a s s selectors____________________________________________________________*/
+
+
+.connexion_zone{
+	background-color: blue;
+	background-size: 100px 30px;
+}
+
+#logo_big{
+	position: fixed;;
+	margin-top: 60%;
+	margin-right: 10%;
+
+}
+
+/*____________________________________________________Psedo - C l a s s selectors____________________________________________________________*/
+
+.a: link{
+		text-decoration: none;
+}
+
+/*____________________________________________________I D   selectors_____________________________________________________________*/
+
+
+header{
+	background-color: white;
+	text-align: right;
+	padding-left: 140px;
+		font-family: arial,sans-serif;
+		text-decoration: none;
+
+
+}
+
+
+
+
+footer {
+
+    position: absolute;
+    width: 100%;
+    height: 35px;
+		bottom: 0px;
+		font-size: 16px;
+		font-family: Liberation;
+		background-color: #ebebe0;
+		align-content: auto;
+
+
+
+
+align-items: start;
+align-self:
+start;
 }
