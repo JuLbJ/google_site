@@ -24,7 +24,7 @@ body{
 
 
 .connexion_zone{
-	background-color: blue;
+	background-color: #3D65FF;
 	background-size: 100px 30px;
 
 }
@@ -53,7 +53,7 @@ border: 1px solid black;
 	.wind2, .wind3{
 		width: 250px;
 			background-size: cover;
-
+			font-family: Liberation, sans-serif;
 			display: block;
 			margin: auto;
 		}
@@ -68,14 +68,21 @@ border: 1px solid black;
 /*____________________________________________________I D   selectors_____________________________________________________________*/
 
 
-header{
-	background-color: white;
-	text-align: right;
-	padding-left: 140px;
-		font-family: arial,sans-serif;
-		text-decoration: none;
-		border: 1px solid black;
+header a{ /*__________________a ___I N ___header_____*/
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	font-family: Liberation, sans-serif;
+	text-decoration: none;
+
+	float: right;
 }
+.gmail_zone, .image_zone, .square_zone, .connection_zone{
+	margin-right: 4px;
+}
+
+
 
 input{
 	width: 50%;
@@ -83,10 +90,11 @@ input{
 
 img{
 	padding-top: 150px;
-	background-size: cover;
+
 	border: 1px solid black;
 	display: block;
 	margin: 0 auto;
+	size: 150%;
 }
 
 footer {
@@ -96,15 +104,11 @@ footer {
     height: 35px;
 		bottom: 0px;
 		font-size: 16px;
-		font-family: Liberation;
+		font-family: Liberation, sans-serif;
 		background-color: #ebebe0;
-		align-content: auto;
 
 
 
 
-align-items: start;
-align-self:
-start;
 border: 1px solid black;
 }
