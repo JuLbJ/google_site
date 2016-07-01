@@ -26,20 +26,31 @@ body{
 .connexion_zone{
 	background-color: blue;
 	background-size: 100px 30px;
-}
-
-#logo_big{
-	position: fixed;;
-	margin-top: 60%;
-	margin-right: 10%;
 
 }
 
+img{
+	padding-top: 150px;
+	background-size: cover;
+	
+	border: 1px solid black;
+	display: block;
+	margin: 0 auto;
+
+}
 /*____________________________________________________Psedo - C l a s s selectors____________________________________________________________*/
 
 .a: link{
 		text-decoration: none;
 }
+form{
+text-align: center;
+border: #ebebe0; 1px;
+margin-top: auto;
+}
+
+
+
 
 /*____________________________________________________I D   selectors_____________________________________________________________*/
 
