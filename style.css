@@ -29,13 +29,7 @@ body{
 
 }
 
-img{
-	padding-top: 150px;
-	background-size: cover;
-	border: 1px solid black;
-	display: block;
-	margin: 0 auto;
-}
+
 /*____________________________________________________Psedo - C l a s s selectors____________________________________________________________*/
 
 .a: link{
@@ -49,10 +43,26 @@ margin-top: -70px;
 width: auto;
 border: 1px solid black;
 }
-input{
-	width: 50%;
+
+.window23{
+	border: 1px solid black;
+	display: flex;  /*display the blocks one B Y another*/
+
 }
 
+	.wind2, .wind3{
+		width: 250px;
+			background-size: cover;
+
+			display: block;
+			margin: auto;
+		}
+	.wind2{
+		margin-right: 2px; /*approach the blocs one T O another*/
+	}
+	.wind3{
+		margin-left: 2px;
+	}
 
 
 /*____________________________________________________I D   selectors_____________________________________________________________*/
@@ -64,12 +74,20 @@ header{
 	padding-left: 140px;
 		font-family: arial,sans-serif;
 		text-decoration: none;
-
-
+		border: 1px solid black;
 }
 
+input{
+	width: 50%;
+}
 
-
+img{
+	padding-top: 150px;
+	background-size: cover;
+	border: 1px solid black;
+	display: block;
+	margin: 0 auto;
+}
 
 footer {
 
@@ -88,4 +106,5 @@ footer {
 align-items: start;
 align-self:
 start;
+border: 1px solid black;
 }
