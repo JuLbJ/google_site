@@ -1,26 +1,26 @@
-/*_____________________________________________________Media queries___________________________________________________________*/
+/*________________________________________  M E D I A  queries  ________________*/
 																																		/*_______Smartphones_______*/
 @media only screen and (max-width : 320px) {
 /*=======Styles go here=======*/
 body{
-	background: blue;
+	background: #yA9BEC2;
 }
 }
 																																		/*_______Tablets______*/
 @media only screen and (min-width : 321px)and (max-width : 480px) {
 /*=======Styles go here=======*/
 body{
-	background: yellow;
+	background: #yA6BEC2;
 }
 }
 																																		/*_______Medium devices_______*/
 @media only screen and (min-width: 481px) and (max-width: 1200px) {
 /*=======Styles go here=======*/
 body{
-	background: green;
+	background: #yA0BEC2;
 }
 }
-/*____________________________________________________C l a s s selectors____________________________________________________________*/
+/*__________________________________________________  C l a s s selectors  _____*/
 
 
 .connexion_zone{
@@ -30,59 +30,50 @@ body{
 }
 
 
-/*____________________________________________________Psedo - C l a s s selectors____________________________________________________________*/
+/*________________________________________  Psedo - C l a s s selectors_________*/
 
 .a: link{
 		text-decoration: none;
 }
+
 fieldset{
 text-align: center;
 border: #ebebe0; 1px;
-
 margin-top: -70px;
 width: auto;
-border: 1px solid black;
 }
 
 .window23{
-	border: 1px solid black;
-	display: flex;  /*display the blocks one B Y another*/
-
+	display: flex;  /*_________________ display the blocks one B Y another _____*/
 }
 
-	.wind2, .wind3{
-		width: 250px;
-			background-size: cover;
-			font-family: Liberation, sans-serif;
-			display: block;
-			margin: auto;
-		}
-	.wind2{
-		margin-right: 2px; /*approach the blocs one T O another*/
-	}
-	.wind3{
-		margin-left: 2px;
-	}
+.wind2, .wind3{
+	width: 250px;
+	background-size: cover;
+	font-family: Liberation, sans-serif;
+	display: block;
+	margin: auto;
+}
+.wind2{
+	margin-right: 2px; /*________________approach the blocs one T O another_____*/
+}
+.wind3{
+	margin-left: 2px;
+}
+/*_________________________________________________  I D   selectors  __________*/
 
-
-/*____________________________________________________I D   selectors_____________________________________________________________*/
-
-
-header a{ /*__________________a ___I N ___header_____*/
-
+header a{ /*_______________________________________________a__I N__header_____*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 12px;
 	font-family: Liberation, sans-serif;
 	text-decoration: none;
-
 	float: right;
 }
+
 .gmail_zone, .image_zone, .square_zone, .connection_zone{
 	margin-right: 4px;
 }
-
-
 
 input{
 	width: 50%;
@@ -90,25 +81,17 @@ input{
 
 img{
 	padding-top: 150px;
-
-	border: 1px solid black;
 	display: block;
 	margin: 0 auto;
 	size: 150%;
 }
 
 footer {
-
-    position: absolute;
-    width: 100%;
-    height: 35px;
-		bottom: 0px;
-		font-size: 16px;
-		font-family: Liberation, sans-serif;
-		background-color: #ebebe0;
-
-
-
-
-border: 1px solid black;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+	bottom: 0px;
+	font-size: 16px;
+	font-family: Liberation, sans-serif;
+	background-color: #ebebe0;
 }
